@@ -2,23 +2,19 @@ import React from 'react'
 import './About.css'
 import AboutImg from '../../assets/profile-pic.jpeg'
 import Info from './Info'
-// import CV from '../../assets/Resume.pdf'
+import CV from '../../assets/Yuvraj_Resume.pdf'
 
 const About = () => {
   return (
     <section className='about section' id='about'>
-      <h2 className='section__title'>About Me</h2>
+      <h2 className='section__title'> <span style={{color:"#096B90"}}>About</span> Me</h2>
       <span className='section__subtitle'>My introduction</span>
       <div className='about__container container grid'>
         <img src={AboutImg} alt='' className='about__img' />
         <div className='about__data'>
          <Info/>
           <p className='about__description'>
-            As a MERN stack developer deeply passionate about crafting intuitive
-            and engaging websites and applications, I thrive on blending robust
-            functionality with seamless user experiences.Additionally, I'm keen
-            on expanding professional networks and sharing insights on LinkedIn.
-            Let's connect there and explore possibilities together!
+          Passionate FULL stack developer crafting intuitive websites and apps. Seamlessly blending robust functionality with captivating user experiences. Keen on networking and sharing insights on <a  href='https://www.linkedin.com/in/yuvraj-bhalla-84107322a/'  target='_blank' style={{fontWeight:"bolder" , color:"#096B90"}}>LinkedIn</a>. Let's connect and explore together!
           </p>
           <a download='' href={CV} className='button button--flex'>
             Download Resume

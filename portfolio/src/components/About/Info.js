@@ -7,23 +7,24 @@ const Info = () => {
         <i class='bx bx-award about__icon'></i>
         <h3 className='about__title'>Experience</h3>
         <span className='about__subtitle'>
-          Studying <br />
-          College 3rd year <br />
-          Intern at Accenture
+          Undergraduate <br />
+          (PreFinal Year) <br />
+          Intern at  <br />
+          <span style={{fontWeight:"bolder" , color:"#096B90"}}>Expedia Group</span>
         </span>
       </div>
 
       <div className='about__box'>
         <i class='bx bx-briefcase about__icon'></i>
         <h3 className='about__title'>Completed</h3>
-        <span className='about__subtitle'>6+ Projects</span>
+        <span className='about__subtitle'>12+ Projects</span>
       </div>
 
       <div className='about__box'>
         <i class='bx bx-support about__icon'></i>
-        <h3 className='about__title'>Support</h3>
+        <h3 className='about__title'>Connect</h3>
         <span className='about__subtitle'>
-          Everytime
+          Anytime
           <br />
           (Excluding College hours)
         </span>
