@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './head.css'
+import './Head.css'
 
 const Head = () => {
   const [Toggle, showMenu] = useState(false)
@@ -32,7 +32,7 @@ const Head = () => {
     <header className='header'>
       <nav className='nav container'>
         <a href='index.html' className='nav__logo'>
-         Yuvraj Bhalla
+          Yuvraj Bhalla
         </a>
         <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
           <ul className='nav__list grid'>
@@ -68,6 +68,18 @@ const Head = () => {
                 <i className='uil uil-file-alt '></i>Skills
               </a>
             </li>
+            {/* <li className='nav__item'>
+              <a
+                href='#services'
+                className={
+                  activeNav === '#services'
+                    ? 'nav__link active-link'
+                    : 'nav__link'
+                }
+              >
+                <i className='uil uil-briefcase-alt '></i>Services
+              </a>
+            </li> */}
             <li className='nav__item'>
               <a
                 href='#portfolio'
