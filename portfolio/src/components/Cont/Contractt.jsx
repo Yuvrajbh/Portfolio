@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-// import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
 import './Contractt.css'
 
 function Contractt() {
@@ -8,12 +8,12 @@ function Contractt() {
     const sendEmail = e => {
         e.preventDefault()
 
-        // emailjs.sendForm(
-        //     'service_4qvf7dc',
-        //     'template_5rjo1qf',
-        //     form.current,
-        //     'uwmkrJxJP8YZQ3bKk'
-        // )
+        emailjs.sendForm(
+            'service_fbldarl',
+            'template_2tagcad',
+            form.current,
+            'QGTE1JmS9O5_mWBF4'
+        )
         e.target.reset()
     }
 
