@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import Qual from './components/Qual/Qual';
 // import Services fr om './components/Services/Services';
 import Skills from './components/Skills/Skills';
+import Work from './components/Work/Work';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <Skills/>
      <Qual/>
      <Contractt/>
-     
+     <Work/>
      </main>
      <Footer/>
     </div>
