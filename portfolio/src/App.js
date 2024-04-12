@@ -19,8 +19,9 @@ function App() {
       <About></About>
       <Skills/>
      <Qual/>
-     <Contractt/>
      <Work/>
+     <Contractt/>
+     
      </main>
      <Footer/>
     </div>
