@@ -10,7 +10,7 @@ const Language = () => {
             <i class='bx bx-badge-check'></i>
 
             <div>
-              <h3 className='skills__name'>C+</h3>
+              <h3 className='skills__name'>C</h3>
               <span className='skills__level'>Expert</span>
             </div>
           </div>
