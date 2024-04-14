@@ -11,7 +11,7 @@ const Language = () => {
 
             <div>
               <h3 className='skills__name'>C</h3>
-              <span className='skills__level'>Expet</span>
+              <span className='skills__level'>Expert</span>
             </div>
           </div>
           <div className='skills__data'>
