@@ -10,14 +10,14 @@ export const projectsData = [
     image: Work2,
     title: 'Static Amazon Clone (HTML CSS JS)',
     category: 'web',
-    deploymentLink: 'https://mridulkalia.github.io/amazon-clone/'
+    deploymentLink: ''
   },
   {
     id: 2,
     image: Work2,
     title: 'CHAT-APP (MERN)',
     category: 'web',
-    deploymentLink: 'https://mern-chat-app-snappy.netlify.app'
+    deploymentLink: ''
   },
   {
     id: 3,
