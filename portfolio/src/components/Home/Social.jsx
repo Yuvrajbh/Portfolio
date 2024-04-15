@@ -7,6 +7,7 @@ const Social = () => {
         href='https://www.linkedin.com/in/yuvraj-bhalla-84107322a/'
         className='home__social-icon'
         target='_blank'
+        rel="noreferrer"
       >
         <svg
           xmlns='http://www.w3.org/2000/svg'
@@ -34,6 +35,7 @@ const Social = () => {
         href='https://leetcode.com/Yuvraj__Bhalla/'
         className='home__social-icon'
         target='_blank'
+        rel="noreferrer"
       >
         <svg
           xmlns='http://www.w3.org/2000/svg'
@@ -59,6 +61,7 @@ const Social = () => {
         href='https://www.instagram.com/yuvraj.bhalla_'
         className='home__social-icon'
         target='_blank'
+        rel="noreferrer"
       >
         <i class='uil uil-instagram'></i>
       </a>

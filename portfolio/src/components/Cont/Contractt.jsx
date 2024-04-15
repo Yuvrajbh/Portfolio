@@ -37,6 +37,7 @@ function Contractt() {
                                 href='mailto:yuvrajbhalla05@gmail.com'
                                 className='contact__button'
                                 target='_blank'
+                                rel="noreferrer"
                             >
                                 Write me
                                 <i className='bx bx-right-arrow-alt contact__button-icon'></i>
@@ -53,6 +54,7 @@ function Contractt() {
                                 href='https://api.whatsapp.com/send?phone=919811881102&text=Hello, more information!'
                                 className='contact__button'
                                 target='_blank'
+                                rel="noreferrer"
                             >
                                 Contact me{' '}
                                 <i className='bx bx-right-arrow-alt contact__button-icon'></i>

@@ -14,9 +14,9 @@ const About = () => {
         <div className='about__data'>
          <Info/>
           <p className='about__description'>
-          Passionate FULL stack developer crafting intuitive websites and apps. Seamlessly blending robust functionality with captivating user experiences. Keen on networking and sharing insights on <a  href='https://www.linkedin.com/in/yuvraj-bhalla-84107322a/'  target='_blank' style={{fontWeight:"bolder" , color:"#096B90"}}>LinkedIn</a>. Let's connect and explore together!
+          Passionate FULL stack developer crafting intuitive websites and apps. Seamlessly blending robust functionality with captivating user experiences. Keen on networking and sharing insights on <a  href='https://www.linkedin.com/in/yuvraj-bhalla-84107322a/' rel="noreferrer" target='_blank' style={{fontWeight:"bolder" , color:"#096B90"}}>LinkedIn</a>. Let's connect and explore together!
           </p>
-          <a download='' href={CV} className='button button--flex'>
+          <a download='' href={CV}   className='button button--flex'>
             Download Resume
             <svg
               class='button__icon'

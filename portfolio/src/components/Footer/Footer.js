@@ -28,6 +28,7 @@ const Footer = () => {
         <div className='footer__social'>
           <a
             href='https://www.instagram.com/yuvraj.bhalla_'
+            rel="noreferrer"
             className='footer__social-link'
             target='_blank'
           >
@@ -38,6 +39,7 @@ const Footer = () => {
             href='https://github.com/Yuvrajbh'
             className='footer__social-link'
             target='_blank'
+            rel="noreferrer"
           >
             <i class='uil uil-github-alt'></i>
           </a>
